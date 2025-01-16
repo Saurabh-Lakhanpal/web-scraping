@@ -7,7 +7,8 @@ Steps done are collecting data, organizing and storing data, analyzing data, and
 - Scrape and analyze Mars weather data, which exists in a table.
 
 ## Solution
-- 
+- [mars_news](https://github.com/Saurabh-Lakhanpal/web-scraping/blob/main/mars_news.ipynb)
+- [mars_weather](https://github.com/Saurabh-Lakhanpal/web-scraping/blob/main/mars_weather.ipynb)
 
 ## Instructions
 
