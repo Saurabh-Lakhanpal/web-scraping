@@ -31,7 +31,7 @@ Steps done are collecting data, organizing and storing data, analyzing data, and
 ### Part 2: Scrape and Analyze Mars Weather Data
 
 1. Use Jupyter Notebook to scrape and analyze Mars weather data.
-2. Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site. Inspect the page to identify which elements to scrape. URL is `https://static.bc-edx.com/data/web/mars_facts/temperature.html`. Create a Beautiful Soup object and use it to scrape the data in the HTML table.
+2. Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site. Inspect the page to identify which elements to scrape from the [website](https://static.bc-edx.com/data/web/mars_facts/temperature.html). Create a Beautiful Soup object and use it to scrape the data in the HTML table.
 3. Assemble the scraped data into a Pandas DataFrame. The columns to have the same headings as the table on the website. Explanation of the column headings:
    - `id`: the identification number of a single transmission from the Curiosity rover
    - `terrestrial_date`: the date on Earth
@@ -40,7 +40,8 @@ Steps done are collecting data, organizing and storing data, analyzing data, and
    - `month`: the Martian month
    - `min_temp`: the minimum temperature, in Celsius, of a single Martian day (sol)
    - `pressure`: The atmospheric pressure at Curiosity's location
-4. Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate `datetime`, `int`, or `float` data types. Analyze the dataset by using Pandas functions to answer the following questions:
+4. Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate `datetime`, `int`, or `float` data types.
+Analyze the dataset by using Pandas functions to answer the following questions:
     - How many months exist on Mars?
     - How many Martian (and not Earth) days worth of data exist in the scraped dataset?
     - What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
