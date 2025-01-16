@@ -9,6 +9,7 @@ Steps done are collecting data, organizing and storing data, analyzing data, and
 ## Solution
 - [mars_news](https://github.com/Saurabh-Lakhanpal/web-scraping/blob/main/mars_news.ipynb)
 - [mars_weather](https://github.com/Saurabh-Lakhanpal/web-scraping/blob/main/mars_weather.ipynb)
+- Source - [News - Mars Exploration Program](https://static.bc-edx.com/data/web/mars_news/index.html)
 
 ## Instructions
 
@@ -31,7 +32,7 @@ Steps done are collecting data, organizing and storing data, analyzing data, and
 ### Part 2: Scrape and Analyze Mars Weather Data
 
 1. Use Jupyter Notebook to scrape and analyze Mars weather data.
-2. Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site. Inspect the page to identify which elements to scrape from the [website](https://static.bc-edx.com/data/web/mars_facts/temperature.html). Create a Beautiful Soup object and use it to scrape the data in the HTML table.
+2. Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site. Inspect the page to identify which elements to scrape from the [webpage](https://static.bc-edx.com/data/web/mars_facts/temperature.html). Create a Beautiful Soup object and use it to scrape the data in the HTML table.
 3. Assemble the scraped data into a Pandas DataFrame. The columns to have the same headings as the table on the website. Explanation of the column headings:
    - `id`: the identification number of a single transmission from the Curiosity rover
    - `terrestrial_date`: the date on Earth
